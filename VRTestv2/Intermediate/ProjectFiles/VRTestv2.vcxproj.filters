@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\VRTestv2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{692AE7DC-5DE6-490E-B40B-0EC8CDE1D66D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\VRTestv2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\VRTestv2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{FC4E48D7-2437-4B0C-BEB0-164BAA4963DD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultScalability.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\VRTestv2">
+			<UniqueIdentifier>{B2CAF779-AF16-4BF0-8D89-35062ADEFF1B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\VRTestv2\VRTestv2.Build.cs">
+			<Filter>Source\VRTestv2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\VRTestv2\VRTestv2.cpp">
+			<Filter>Source\VRTestv2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VRTestv2\VRTestv2.h">
+			<Filter>Source\VRTestv2</Filter>
+		</ClInclude >
+		<Filter Include="Source\VRTestv2\Private">
+			<UniqueIdentifier>{BC772244-BF89-4CD4-97BF-0337A3B320A0}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\VRTestv2\Private\MyGameInstance.cpp">
+			<Filter>Source\VRTestv2\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\VRTestv2\Private\PC_ReplaySpectator.cpp">
+			<Filter>Source\VRTestv2\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\VRTestv2\Public">
+			<UniqueIdentifier>{7B47735C-4304-462A-A67D-F3914F844857}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\VRTestv2\Public\MyGameInstance.h">
+			<Filter>Source\VRTestv2\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\VRTestv2\Public\PC_ReplaySpectator.h">
+			<Filter>Source\VRTestv2\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

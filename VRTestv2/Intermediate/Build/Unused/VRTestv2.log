@@ -1,0 +1,25 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading VRTestv2Editor (game project files are newer)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for VRTestv2Editor
+    Running UnrealHeaderTool "C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\VRTestv2.uproject" "C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\VRTestv2Editor\Development\VRTestv2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for VRTestv2Editor in 8,3980238 seconds
+  Building 7 actions with 8 processes...
+    [1/7] SharedPCH.Engine.cpp
+    [2/7] VRTestv2.cpp
+    [3/7] VRTestv2.init.gen.cpp
+    [4/7] MyGameInstance.gen.cpp
+    [5/7] MyGameInstance.cpp
+C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Source\VRTestv2\Private\MyGameInstance.cpp(42): warning C4996: 'INetworkReplayStreamer::EnumerateStreams': Please use the version of EnumerateStreams that accepts a FEnumerateStreamsCallback delegate. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public\NetworkReplayStreaming.h(551): note: see declaration of 'INetworkReplayStreamer::EnumerateStreams'
+C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Source\VRTestv2\Private\MyGameInstance.cpp(66): warning C4996: 'FPaths::GameSavedDir': FPaths::GameSavedDir() has been superseded by FPaths::ProjectSavedDir(). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Misc/Paths.h(164): note: see declaration of 'FPaths::GameSavedDir'
+C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Source\VRTestv2\Private\MyGameInstance.cpp(103): warning C4996: 'INetworkReplayStreamer::DeleteFinishedStream': Please use the version of DeleteFinishedStream that accepts a FDeleteFinishedStreamCallback delegate. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public\NetworkReplayStreaming.h(541): note: see declaration of 'INetworkReplayStreamer::DeleteFinishedStream'
+    [6/7] UE4Editor-VRTestv2-3971.lib
+       Creating library C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\UE4Editor-VRTestv2-3971.lib and object C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\UE4Editor-VRTestv2-3971.exp
+    [7/7] UE4Editor-VRTestv2-3971.dll
+       Creating library C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\UE4Editor-VRTestv2-3971.suppressed.lib and object C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\UE4Editor-VRTestv2-3971.suppressed.exp
+  Deploying VRTestv2Editor Win64 Development...
+  Total build time: 37,33 seconds (Parallel executor: 23,95 seconds)

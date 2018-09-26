@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VRTestv2-7869.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\VRTestv2Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\VRTestv2.cpp.obj"
+"C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\MyGameInstance.cpp.obj"
+"C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\MyGameInstance.gen.cpp.obj"
+"C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\VRTestv2.init.gen.cpp.obj"
+"C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\PCLaunch.rc.res"
+/OUT:"C:\Users\ste\Documents\GitHub\MarsProduction\VRTestv2\Intermediate\Build\Win64\UE4Editor\Development\VRTestv2\UE4Editor-VRTestv2-7869.lib"
